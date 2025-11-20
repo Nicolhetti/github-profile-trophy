@@ -17,11 +17,11 @@
   Puedes usar este servicio de forma gratuita. Busco patrocinadores para ayudarnos a mantener este servicio ❤️
 </p>
 
-<!-- <div align="center">
+<div align="center">
   <a href="https://github.com/sponsors/Nicolhetti">
     <img src="https://img.shields.io/static/v1?label=Patrocinar&message=%E2%9D%A4&logo=GitHub&color=ff69b4" alt="Patrocinar"/>
   </a>
-</div> -->
+</div>
 
 > ⚠️ **Aviso del Propietario del Proyecto**
 >
@@ -39,7 +39,7 @@
 > Tu apoyo de las siguientes maneras sería muy apreciado:
 >
 > 1. Apoyo financiero:
->    [Patrocinadores de GitHub](https://github.com/sponsors/Nicolhetti) _No hay Stripe en Argentina por lo que no puedo habilitar Sponsors_
+>    [Patrocinadores de GitHub](https://github.com/sponsors/Nicolhetti)
 > 2. Reducir la carga del servidor mediante auto-hospedaje (haciendo fork en
 >    GitHub e implementando en Vercel)
 
