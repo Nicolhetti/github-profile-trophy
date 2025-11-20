@@ -79,3 +79,17 @@ export enum RANK {
 }
 
 export const RANK_ORDER = Object.values(RANK);
+
+export function validateUsername(username: string | null): boolean {
+  if (!username) return false;
+
+  // Validar que el nombre de usuario cumple con las reglas de GitHub
+  const githubUsernameRegex =
+    /^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$/;
+  return githubUsernameRegex.test(username);
+}
+
+export function sanitizeInput(input: string): string {
+  // Eliminar caracteres potencialmente peligrosos
+  return input.replace(/[<>'"]/g, "");
+}
